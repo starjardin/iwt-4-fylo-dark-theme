@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"C:\\Users\\Tantely\\code\\weekpro\\iwt-4-fylo-dark-theme\\images\\icon-access-anywhere.svg":[["icon-access-anywhere.5665bbc6.svg","images/icon-access-anywhere.svg"],"images/icon-access-anywhere.svg"],"./..\\images\\icon-security.svg":[["icon-security.859cb965.svg","images/icon-security.svg"],"images/icon-security.svg"],"./..\\images\\icon-collaboration.svg":[["icon-collaboration.511eb533.svg","images/icon-collaboration.svg"],"images/icon-collaboration.svg"],"./..\\images\\icon-any-file.svg":[["icon-any-file.3691ba15.svg","images/icon-any-file.svg"],"images/icon-any-file.svg"],"./..\\images\\icon-arrow.svg":[["icon-arrow.56d7c493.svg","images/icon-arrow.svg"],"images/icon-arrow.svg"],"_css_loader":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/css-loader.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"C:\\Users\\Tantely\\code\\weekpro\\iwt-4-fylo-dark-theme\\images\\icon-access-anywhere.svg":[["icon-access-anywhere.5665bbc6.svg","images/icon-access-anywhere.svg"],"images/icon-access-anywhere.svg"],"./..\\images\\icon-security.svg":[["icon-security.859cb965.svg","images/icon-security.svg"],"images/icon-security.svg"],"./..\\images\\icon-collaboration.svg":[["icon-collaboration.511eb533.svg","images/icon-collaboration.svg"],"images/icon-collaboration.svg"],"./..\\images\\icon-any-file.svg":[["icon-any-file.3691ba15.svg","images/icon-any-file.svg"],"images/icon-any-file.svg"],"./..\\images\\icon-arrow.svg":[["icon-arrow.56d7c493.svg","images/icon-arrow.svg"],"images/icon-arrow.svg"],"./..\\images\\icon-location.svg":[["icon-location.fa295aa5.svg","images/icon-location.svg"],"images/icon-location.svg"],"./..\\images\\icon-phone.svg":[["icon-phone.cc84a2ca.svg","images/icon-phone.svg"],"images/icon-phone.svg"],"./..\\images\\icon-email.svg":[["icon-email.e16cbdce.svg","images/icon-email.svg"],"images/icon-email.svg"],"./..\\images\\logo-facebook.svg":[["logo-facebook.1fae6c1d.svg","images/logo-facebook.svg"],"images/logo-facebook.svg"],"./..\\images\\logo-instagram.svg":[["logo-instagram.9a91cc9e.svg","images/logo-instagram.svg"],"images/logo-instagram.svg"],"./..\\images\\logo-twitter.svg":[["logo-twitter.bf11b952.svg","images/logo-twitter.svg"],"images/logo-twitter.svg"],"_css_loader":"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/css-loader.js"}],"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53889" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50264" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
