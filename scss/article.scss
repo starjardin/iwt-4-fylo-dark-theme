@@ -1,0 +1,46 @@
+@import "variables.scss";
+@import "mixin.scss";
+
+.section {
+  margin: auto;
+  text-align: center;
+}
+
+.section__article {
+  padding-top: 14rem;
+  background-repeat: no-repeat;
+  background-position: 50% 40%;
+}
+
+.section__article.anywhere {
+  background-image: url('/images/icon-access-anywhere.svg');
+}
+
+.section__article.security {
+  background-image: url('../images/icon-security.svg');
+}
+
+.section__article.collaboration {
+ background-image: url('../images/icon-collaboration.svg');
+}
+
+.section__article.any-file {
+ background-image: url('../images/icon-any-file.svg');
+}
+
+.article__header {
+  margin: 0;
+}
+
+.article__heading {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 35px;
+  margin: 1rem 0;
+}
+
+.article__paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}

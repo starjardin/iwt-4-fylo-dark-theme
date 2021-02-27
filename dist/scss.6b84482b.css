@@ -132,4 +132,48 @@ ul {
   border-radius: 30px;
 }
 
+.section {
+  margin: auto;
+  text-align: center;
+}
+
+.section__article {
+  padding-top: 14rem;
+  background-repeat: no-repeat;
+  background-position: 50% 40%;
+}
+
+.section__article.anywhere {
+  background-image: url("/icon-access-anywhere.5665bbc6.svg");
+}
+
+.section__article.security {
+  background-image: url("/icon-security.859cb965.svg");
+}
+
+.section__article.collaboration {
+  background-image: url("/icon-collaboration.511eb533.svg");
+}
+
+.section__article.any-file {
+  background-image: url("/icon-any-file.3691ba15.svg");
+}
+
+.article__header {
+  margin: 0;
+}
+
+.article__heading {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 35px;
+  margin: 1rem 0;
+}
+
+.article__paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
 /*# sourceMappingURL=/scss.6b84482b.css.map */
