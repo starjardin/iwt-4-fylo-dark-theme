@@ -1,0 +1,25 @@
+@import "variables.scss";
+@import "mixin.scss";
+
+.header__container,
+.navigation__lists {
+  @include flex-row;
+  justify-content: space-between;
+}
+
+.header__container {
+  padding: 3rem 1rem;
+}
+
+.header__heading {
+  margin: 0;
+}
+
+.navigation__lists {
+  justify-content: space-between;
+  width: 50vw;
+}
+
+.navigation__link {
+  color: $white;
+}
