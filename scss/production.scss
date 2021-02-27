@@ -1,0 +1,39 @@
+@import "variables.scss";
+@import "mixin.scss";
+
+.production {
+  padding-block: 40%;
+}
+
+.porduction__image {
+  width: 100%;
+  height: 100%;
+}
+
+.production__header {
+  margin: 0;
+}
+
+.production__heading {
+  font-size: xx-large;
+  line-height: 38px;
+}
+
+.production__paragraph {
+  margin-block: 1rem;
+  line-height: $paragraph-line-height;
+}
+
+.production__works {
+  color: $blue;
+  text-shadow: $blue 1px 0 10px;  
+  border-bottom: solid $blue 2px;
+  display: inline-block;
+  padding-right: 3rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+  background-image: url('../images/icon-arrow.svg');
+  margin-block: .3rem;
+  padding-block: .5rem;
+}
