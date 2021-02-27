@@ -1,0 +1,41 @@
+@import "variables.scss";
+@import "mixin.scss";
+
+.access {
+  text-align: center;
+  background-color: $dark-blue-tstimoinals;
+}
+
+.access__header {
+  margin: 0;
+}
+
+.access__heading {
+  font-size: 23px;
+  line-height: 45px;
+}
+
+.access__form {
+  
+}
+
+.access__button,
+input {
+  display: block;
+  padding: 2em;
+  width: 85%;
+  border-radius: 50px;
+  margin: auto;
+  margin-block: 1rem;
+}
+
+input {
+  text-align: center;
+}
+
+.access__button {
+  background-color: $blue;
+  color: $white;
+  border: none;
+}
+

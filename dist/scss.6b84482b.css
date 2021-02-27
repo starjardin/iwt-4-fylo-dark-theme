@@ -176,6 +176,44 @@ ul {
   line-height: 28px;
 }
 
+.team__heading {
+  display: none;
+}
+
+.team__card {
+  margin-block: 2rem;
+  background-color: #202a3c;
+  padding: 3rem 1rem;
+  width: 80%;
+  margin-inline: auto;
+  border-radius: 4px;
+}
+
+.card__paragraph {
+  margin-block: 1rem;
+}
+
+.card__profile {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile__text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: baseline;
+}
+
+.profile__image {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
 .production {
   padding-block: 40%;
 }
@@ -211,6 +249,40 @@ ul {
   background-image: url("/icon-arrow.56d7c493.svg");
   margin-block: 0.3rem;
   padding-block: 0.5rem;
+}
+
+.access {
+  text-align: center;
+  background-color: #202a3c;
+}
+
+.access__header {
+  margin: 0;
+}
+
+.access__heading {
+  font-size: 23px;
+  line-height: 45px;
+}
+
+.access__button,
+input {
+  display: block;
+  padding: 2em;
+  width: 85%;
+  border-radius: 50px;
+  margin: auto;
+  margin-block: 1rem;
+}
+
+input {
+  text-align: center;
+}
+
+.access__button {
+  background-color: #339ecc;
+  color: white;
+  border: none;
 }
 
 .footer {
