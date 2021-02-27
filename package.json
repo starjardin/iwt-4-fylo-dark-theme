@@ -1,0 +1,20 @@
+{
+  "name": "iwt-4-fylo-dark-theme",
+  "version": "1.0.0",
+  "description": "![Design preview for the Fylo landing page with dark theme and features grid challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starjardin/iwt-4-fylo-dark-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starjardin/iwt-4-fylo-dark-theme/issues"
+  },
+  "homepage": "https://github.com/starjardin/iwt-4-fylo-dark-theme#readme"
+}
