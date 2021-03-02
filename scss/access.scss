@@ -63,3 +63,27 @@ input {
   border: none;
 }
 
+@media (min-width: 1000px) {
+  .access {
+    max-width: 70%;
+    margin: auto;
+    padding-inline: 2rem;
+  }
+  
+  .access__form {
+    display: flex;
+    flex-direction: row;
+    > :nth-child(1) {
+      flex-basis: 250%;
+    }
+    .access__button,
+    input {
+      padding-block: 1.5rem;
+    }
+    
+    input {
+      text-align: start;
+    }
+  }
+}
+

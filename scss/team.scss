@@ -45,3 +45,12 @@
   height: 3rem;
   border-radius: 50%;
 }
+
+@media (min-width: 1000px) {
+  .team {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 2rem;
+  }
+}
