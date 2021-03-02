@@ -332,7 +332,7 @@ input {
   background-color: #0b1523;
 }
 
-.footer__contiainer {
+.footer__container {
   margin: 0;
   max-width: 90%;
   margin: auto;
@@ -421,6 +421,20 @@ input {
 
 .twitter {
   background-image: url("/logo-twitter.bf11b952.svg");
+}
+
+@media (min-width: 1000px) {
+  .footer__more {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .footer__more > div:nth-child(1) {
+    flex-basis: 50%;
+    display: flex;
+    gap: 3rem;
+  }
 }
 
 /*# sourceMappingURL=/scss.6b84482b.css.map */
