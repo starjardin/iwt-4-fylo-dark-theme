@@ -181,6 +181,13 @@ button, a {
   line-height: 28px;
 }
 
+@media (min-width: 1000px) {
+  .section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+}
 .team {
   max-width: 90%;
   margin: auto;
@@ -273,6 +280,14 @@ button, a {
   padding-block: 0.5rem;
 }
 
+@media (min-width: 1000px) {
+  .production {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    align-items: center;
+  }
+}
 .access {
   text-align: center;
   background-color: #202a3c;

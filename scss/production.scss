@@ -39,3 +39,12 @@
   margin-block: .3rem;
   padding-block: .5rem;
 }
+
+@media (min-width: 1000px) {
+  .production {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    align-items: center;
+  }
+}
