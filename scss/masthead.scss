@@ -19,7 +19,7 @@
   font-size: 16px;
   line-height: 28px;
   font-weight: 400;
-  padding-block: 1rem;
+  padding-block: 2rem;
 }
 
 .masthead__button.btn {
@@ -28,7 +28,24 @@
   display: block;
   border: none;
   color: $white;
-  background-color: $cyan;
+  background-color: $blue;
   margin: auto;
   border-radius: 30px;
+}
+
+.masthead__button.btn:hover,
+.masthead__button.btn:focus,
+.masthead__button.btn:active {
+  background-color: $cyan;
+}
+
+@media (min-width: 1000px) {
+  .masthead__button.btn {
+    max-width: 400px;
+  }
+  
+  .masthead__container {
+    max-width: 40%;
+    margin: auto;
+  }
 }

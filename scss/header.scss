@@ -23,3 +23,8 @@
 .navigation__link {
   color: $white;
 }
+
+.navigation__link:hover {
+  color: #ffffff;
+  text-decoration: underline #ffffff;
+}

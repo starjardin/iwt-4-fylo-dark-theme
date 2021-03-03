@@ -101,6 +101,11 @@ button, a {
   color: white;
 }
 
+.navigation__link:hover {
+  color: #ffffff;
+  text-decoration: underline #ffffff;
+}
+
 .masthead__container {
   text-align: center;
   margin-bottom: 8rem;
@@ -122,7 +127,7 @@ button, a {
   font-size: 16px;
   line-height: 28px;
   font-weight: 400;
-  padding-block: 1rem;
+  padding-block: 2rem;
 }
 
 .masthead__button.btn {
@@ -131,11 +136,27 @@ button, a {
   display: block;
   border: none;
   color: white;
-  background-color: #65e2d9;
+  background-color: #339ecc;
   margin: auto;
   border-radius: 30px;
 }
 
+.masthead__button.btn:hover,
+.masthead__button.btn:focus,
+.masthead__button.btn:active {
+  background-color: #65e2d9;
+}
+
+@media (min-width: 1000px) {
+  .masthead__button.btn {
+    max-width: 400px;
+  }
+
+  .masthead__container {
+    max-width: 40%;
+    margin: auto;
+  }
+}
 .section {
   margin: auto;
   text-align: center;
@@ -186,6 +207,8 @@ button, a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
+    max-width: 60%;
+    margin: auto;
   }
 }
 .team {
@@ -286,6 +309,10 @@ button, a {
     justify-content: space-between;
     gap: 3rem;
     align-items: center;
+    padding-block: 7rem;
+  }
+  .production img {
+    width: 50%;
   }
 }
 .access {
@@ -330,7 +357,7 @@ button, a {
 }
 
 .access__button,
-input {
+.access__email {
   display: block;
   padding: 2.5em;
   width: 85%;
@@ -340,7 +367,7 @@ input {
   box-sizing: border-box;
 }
 
-input {
+.access__email {
   text-align: center;
 }
 
@@ -350,11 +377,26 @@ input {
   border: none;
 }
 
+.access__button:hover {
+  background-color: #65e2d9;
+}
+
+.access__email:focus,
+.access__email:active,
+.access__button:active,
+.access__button:focus {
+  outline: none;
+  border: 3px #0f7fef solid;
+  border-radius: 50px;
+}
+
 @media (min-width: 1000px) {
   .access {
     max-width: 70%;
     margin: auto;
     padding-inline: 2rem;
+    padding-bottom: 3rem;
+    transform: translateY(10rem);
   }
 
   .access__form {
